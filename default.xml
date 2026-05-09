@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote
+        name="github-yocto"
+        fetch="https://github.com/yoctoproject" />
+    <remote 
+        name="practice-yocto"
+        fetch="https://github.com/practice-yocto" />
+    <default
+        revision="main"
+        remote="practice-yocto"
+        sync-j="8" />
+
+    <!-- yocto projects -->
+    <project path="poky" name="poky" remote="github-yocto" revision="scarthgap" />
+    <!-- end yocto projects -->
+
+    <!-- practice projects -->
+    <project path="layers/layer-core" name="layer-core" revision="main">
+        <linkfile src="envsetup.sh" dest="envsetup.sh" />
+    </project>
+    <!-- end practice projects -->
+</manifest>
