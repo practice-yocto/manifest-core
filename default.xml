@@ -18,6 +18,9 @@
     <!-- practice projects -->
     <project path="layers/layer-core" name="layer-core" revision="main">
         <linkfile src="envsetup.sh" dest="envsetup.sh" />
+        <linkfile src=".gitignore" dest=".gitignore" />
+        <linkfile src="README.md" dest="README.md" />
+        <linkfile src="settings.json" dest=".vscode/settings.json" />
     </project>
     <!-- end practice projects -->
 </manifest>
