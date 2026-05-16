@@ -3,7 +3,7 @@
     <remote
         name="github-yocto"
         fetch="https://github.com/yoctoproject" />
-    <remote 
+    <remote
         name="practice-yocto"
         fetch="https://github.com/practice-yocto" />
     <default
@@ -22,5 +22,7 @@
         <linkfile src="README.md" dest="README.md" />
         <linkfile src="settings.json" dest=".vscode/settings.json" />
     </project>
+
+    <project path="external/linux" name="linux" revision="main" />
     <!-- end practice projects -->
 </manifest>
