@@ -28,5 +28,6 @@
     <project path="external/hello-app" name="hello-app" revision="main" />
     <project path="external/hello-lib" name="hello-lib" revision="main" />
     <project path="external/use-hello-lib" name="use-hello-lib" revision="main" />
+    <project path="external/hello-sdk-app" name="hello-sdk-app" revision="main" />
     <!-- end practice projects -->
 </manifest>
