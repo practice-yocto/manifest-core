@@ -15,7 +15,7 @@
 
     <remote
         name="practice-yocto"
-        fetch="https://github.com/practice-yocto" />
+        fetch="." />
     <default
         revision="main"
         remote="practice-yocto"
