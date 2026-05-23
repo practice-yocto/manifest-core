@@ -4,6 +4,16 @@
         name="github-yocto"
         fetch="https://github.com/yoctoproject" />
     <remote
+        name="git-yocto"
+        fetch="https://git.yoctoproject.org" />
+    <remote
+        name="oe"
+        fetch="https://git.openembedded.org" />
+    <remote
+        name="git-kraj"
+        fetch="https://github.com/kraj" />
+
+    <remote
         name="practice-yocto"
         fetch="https://github.com/practice-yocto" />
     <default
@@ -13,6 +23,9 @@
 
     <!-- yocto projects -->
     <project path="poky" name="poky" remote="github-yocto" revision="scarthgap" />
+    <project path="layers/meta-openembedded" name="meta-openembedded" remote="oe" revision="scarthgap" />
+    <project path="layers/meta-selinux" name="meta-selinux" remote="git-yocto" revision="scarthgap" />
+    <project path="layers/meta-clang" name="meta-clang" remote="git-kraj" revision="scarthgap" />
     <!-- end yocto projects -->
 
     <!-- practice projects -->
